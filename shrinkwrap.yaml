@@ -9,13 +9,12 @@ dependencies:
   js-yaml: 3.12.0
   load-yaml-file: 0.1.0
   mkdirp-promise: 5.0.1
-  pnpm-shrinkwrap: 'link:../__package_previews__/pnpm-shrinkwrap/pnpm-shrinkwrap'
   ramda: 0.25.0
   rimraf-then: 1.0.1
   util.promisify: 1.0.0
   write-file-atomic: 2.3.0
 devDependencies:
-  '@pnpm/logger': 2.0.1
+  '@pnpm/logger': 1.0.2
   '@types/tape': 4.2.32
   '@types/tempy': 0.1.0
   package-preview: 1.0.6
@@ -39,16 +38,16 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-1zLmh6tRftQXfZ1IFHq1IexP0KaJhN6pSCA/IzK+Vixn4hPvxwcIbGjKW0KH9hsHSmrPpmSit2EWj7jGNgfa6Q==
-  /@pnpm/logger/2.0.1:
+  /@pnpm/logger/1.0.2:
     dependencies:
       '@types/node': 10.5.2
       bole: 3.0.2
       ndjson: 1.5.0
     dev: true
     engines:
-      node: '>=6'
+      node: '>=4'
     resolution:
-      integrity: sha512-dST450D6Nj9iu0L16wqBv6dEXpbSQ6tyG1G9zSIzzjHqcDdKgdtpNR/0DvxpDEzBPfwGFQ868+o7AFaCuQsyig==
+      integrity: sha512-A8XbJKvdueazvJGPn1qQ9LL6uopV88ebIT+dJKNQ68gT7yfCbtfT8j5ZzdVczmGbkiuBeZ1VckZerkO0tjOXZA==
   /@pnpm/resolver-base/1.1.0:
     dependencies:
       '@pnpm/types': 1.7.0
@@ -1514,14 +1513,13 @@ packages:
     dev: true
     name: yaml-tag
     resolution:
-      registry: 'https://registry.npmjs.org/'
       tarball: 'https://codeload.github.com/zkochan/yaml-tag/tar.gz/5dc60b313a917434585d02031c4fd4c326a751c1'
     version: 1.1.0
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 8
 shrinkwrapVersion: 3
 specifiers:
-  '@pnpm/logger': ^2.0.1
+  '@pnpm/logger': ^1.0.2
   '@pnpm/resolver-base': ^1.0.0
   '@pnpm/types': ^1.7.0
   '@types/js-yaml': ^3.10.1
