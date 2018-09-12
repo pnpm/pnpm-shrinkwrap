@@ -1,3 +1,5 @@
+> This package has been moved to the [pnpm](https://github.com/pnpm/pnpm) multi-package repository.
+
 # pnpm-shrinkwrap
 
 > Read/write/prune and other utils for dealing with shrinkwrap.yaml files
